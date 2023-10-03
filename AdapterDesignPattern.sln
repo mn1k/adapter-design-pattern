@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{630DF594-F3BB-4CC0-A1C8-DF2D4A37969B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTests\UnitTest.csproj", "{1D8081C2-FB43-4386-81B9-CCD5054DDE2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{630DF594-F3BB-4CC0-A1C8-DF2D4A37969B} = {630DF594-F3BB-4CC0-A1C8-DF2D4A37969B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{630DF594-F3BB-4CC0-A1C8-DF2D4A37969B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630DF594-F3BB-4CC0-A1C8-DF2D4A37969B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630DF594-F3BB-4CC0-A1C8-DF2D4A37969B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630DF594-F3BB-4CC0-A1C8-DF2D4A37969B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8081C2-FB43-4386-81B9-CCD5054DDE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8081C2-FB43-4386-81B9-CCD5054DDE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8081C2-FB43-4386-81B9-CCD5054DDE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8081C2-FB43-4386-81B9-CCD5054DDE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7C814B7-DADE-4326-98DE-C7EC3BD6614B}
+	EndGlobalSection
+EndGlobal
